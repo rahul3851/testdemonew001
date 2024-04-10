@@ -6,5 +6,5 @@ jobs:
     steps:
      - name: print greetings
        run: |
-    echo "First output"
-    echo "Second output"
+          echo "First output"
+          echo "Second output"

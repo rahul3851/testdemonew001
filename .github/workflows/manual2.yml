@@ -7,9 +7,16 @@ on:
         default: 'World'
         required: true
         type: string
+      name:
+        description: 'Age to greet'
+        default: '26'
+        required: true
+        type: integer
 jobs:
   greet:
     runs-on: ubuntu-latest
     steps:
     - name: Send greeting
       run: echo "Hello ${{ inputs.name }}"
+    - name: Send Age
+      run: echo "Hello ${{ inputs.age }}"

@@ -7,7 +7,7 @@ on:
         default: 'World'
         required: true
         type: string
-      name:
+      age:
         description: 'Age to greet'
         default: '26'
         required: true
